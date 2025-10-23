@@ -4,7 +4,7 @@ def imprimir_menu():
     print("\n===== MENÚ =====")
     print("1. Registrar un cliente")
     print("2. Listar clientes")
-    print("3. Eliminar un cliente (lógico)")
+    print("3. Eliminar un cliente ")
     print("4. Salir")
 
 def flujo_registrar_cliente(sistema):

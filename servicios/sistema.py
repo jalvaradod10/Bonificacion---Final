@@ -29,8 +29,8 @@ class Sistema:
         return True, "Cliente marcado como inactivo correctamente."
 
     def _sembrar_clientes_iniciales(self):
-        self.registrar_cliente("Ana", "Pérez", "3001234567")
-        self.registrar_cliente("Luis", "Gómez", "3017654321")
-        self.registrar_cliente("María", "Rojas", "3025556677")
-        self.registrar_cliente("Carlos", "Torres", "3031112233")
-        self.registrar_cliente("Daniela", "Martínez", "3044445566")
+        self.registrar_cliente("Ana", "Perez", "3066234567")
+        self.registrar_cliente("Luis", "Gomez", "3017987321")
+        self.registrar_cliente("Maria", "Rojas", "3025587677")
+        self.registrar_cliente("Carlos", "Torres", "3031987233")
+        self.registrar_cliente("Daniela", "Martinez", "3040985566")
