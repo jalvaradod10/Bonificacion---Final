@@ -1,7 +1,7 @@
-from util.validacion import leer_entero, leer_no_vacio
+from validacion.validacion import leer_entero, leer_no_vacio
 
 def imprimir_menu():
-    print("\n===== MENÚ — Bonificación 0.2 (ED I) =====")
+    print("\n===== MENÚ =====")
     print("1. Registrar un cliente")
     print("2. Listar clientes")
     print("3. Eliminar un cliente (lógico)")

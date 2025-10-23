@@ -1,11 +1,11 @@
 from servicios.sistema import Sistema
-from ui.menu import (
+from visual.menu import (
     imprimir_menu,
     flujo_registrar_cliente,
     flujo_listar_clientes,
     flujo_eliminar_cliente
 )
-from util.validacion import leer_entero
+from validacion.validacion import leer_entero
 
 def main():
     sistema = Sistema()
