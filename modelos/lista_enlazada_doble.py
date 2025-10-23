@@ -12,6 +12,9 @@ class ListaEnlazadaDoble:
     def __len__(self):
         return self._tam
 
+    def contar(self):
+        return self._tam
+
     def agregar_al_final(self, dato):
         nuevo = Nodo(dato)
         if self.esta_vacia():
@@ -25,13 +28,14 @@ class ListaEnlazadaDoble:
     def iterar(self):
         actual = self.primero
         while actual is not None:
-            yield actual.dato
+            yield actual.dato   
             actual = actual.siguiente
 
     def buscar_por_id(self, id_buscar):
         actual = self.primero
         while actual is not None:
-            if getattr(actual.dato, "id", None) == id_buscar:
-                return actual.dato
+            cliente = actual.dato
+            if getattr(cliente, "id", None) == id_buscar:
+                return cliente
             actual = actual.siguiente
         return None
